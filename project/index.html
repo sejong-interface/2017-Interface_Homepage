@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Interface</title>
+	<meta name="format-detection" content="telephone=no, address=no, email=no" />
+	<meta charset="utf-8"/>
+	<meta name="author" content="OneTwo" content2="intadd"/>
+
+	<link rel="stylesheet" type="text/css" href="./static/css/main.css">
+
+    
+<body>
+
+	<header>
+	<ul class="left">
+		<a href="/"><img style="margin-top: 5px; cursor: pointer;" class="logo" src="../static/images/ssglogo_black.png" height="60px;"></a>
+	</ul>
+
+	<ul class="right">
+		<li class="home"><a href="/"><span>HOME</span></a></li>
+		<li class="intro"><a href="/intro.php"><span>소개</span></a></li>
+		<li class="activity"><a href="/activity.php"><span>활동</span></a></li>
+		<li class="request"><a href="/request.php"><span>회원모집</span></a></li>
+		<li class="contact"><a href="/contact.php"><span>CONTACT</span></a></li>
+	</ul> 
+	
+</header>
+	<section class="main-img-header" style="height: 560px;">
+		<div class="cycle-slideshow" style="position: relative; height: 560px; position: absolute;" data-cycle-fx="scrollHorz" data-cycle-pause-on-hover="true" data-cycle-speed="300" data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-pager-event="mouseover">
+				
+			<img src="./static/images/header_img1.jpeg" width="100%" height="100%;" style="position: absolute; left: 0;" />
+			<img src="./static/images/header_img2.jpeg" width="100%" height="100%;" style="position: absolute; left: 0;" />
+			<img src="./static/images/header_img3.png" width="100%" height="100%;" style="position: absolute; left: 0;" />
+			
+			
+			<div class="cycle-pager" style="z-index: 1001; left: 48%; top: 85%; position: absolute;"></div>
+		</div>
+		<article style="background: rgba(0,0,0,0.7); z-index: 1000; width: 100%; height: 100%; position: relative;">
+			<div style="padding-top: 12%; width: 70%; margin: 0 auto; text-align: center;">
+				<h1>Welcome to SSG</h1>
+				<h2 style="color: #fff;">새로운 신입은 언제나 환영이야!</h2>
+				<h2 style="color: #fff;"></h2>
+				<button onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSf1J5ZAYcGj6tKdnc4Y99yBugaXomKGuGtGTEYMI5yJsGgrjA/viewform#start=openform'" class="sub-button" style="margin-top: 40px; padding: 13px 36px;"><p>바로 지원하러 가기</p></button>
+			</div>
+		</article;>
+
+	</section>
+		
+	
+	
+
+	<section class="intro">
+
+		<article style="width: 100%; text-align: center;">
+			<div>
+				<p style="font-size: 36px; color: #000;">We are <span style="color: #52B1B1;">SSG</span></p>
+				<!-- <p style="font-size: 24px; color: #000;">문구추천1</p> -->
+			</div>
+		</article>
+
+
+		<article class="intro">
+			<div class="box-3">
+				<div class="box-3-section-img">
+					<img width="80px;" height="80px;" src="./static/images/intro.png">
+				</div>
+				
+				<p class="title">소개</p>
+				<div class="content">
+					<p>SSG(Sejong Security Group)는</p>
+					<p>세종대학교 컴퓨터공학과 송상훈 교수님과</p>
+					<p>정보보호학과 윤주범교수님의 지도를</p>
+					<p>...</p>
+				</div>
+				<button class="sub-button" onclick="location.href='/intro.php'"><p>자세히 보기</p></button>
+				
+			</div>
+		</article>
+		<article class="intro">
+			<div class="box-3">
+				<div class="box-3-section-img">
+					<img width="80px;" height="80px;" src="./static/images/activity.png">
+				</div>
+				<p class="title">활동</p>
+				<div class="content">
+					<p>SSG는 기본적으로 프로그래밍, 모바일,</p>
+					<p>시스템, 취약점, IOT보안 등 자발적으로</p>
+					<p>연구 활동을 진행하고 있으며</p>
+					<p>...</p>
+				</div>
+				<button class="sub-button" onclick="location.href='/activity.php'"><p>자세히 보기</p></button>
+				
+			</div>
+		</article>
+		<article class="intro">
+			<div class="box-3">
+				<div class="box-3-section-img">
+					<img width="80px;" height="80px;" src="./static/images/join.png">
+				</div>
+				<p class="title">회원모집</p>
+				<div class="content">
+					<p>2017년 SSG 동아리에서 해킹과 보안에</p>
+					<p>관심과 열정이 많은 새 부원을 모집합니다.</p>
+					<p>세부일정은 다음과 같습니다</p>
+					<p>...</p>
+				</div>
+				<button class="sub-button" onclick="location.href='/request.php'"><p>자세히 보기</p></button>
+				
+			</div>
+		</article>
+	</section>
+
+
+
+	<section class="contact">
+		<article class="section-contact">
+		<article style="width: 100%; text-align: center; padding-top: 50px; ">
+			<div>
+				<p style="font-size: 36px; color: #000;">CONTACT US</p>
+				<!-- <p style="font-size: 24px; color: #000;">문구추천2</p> -->
+
+			</div>
+			<article class="contact" style="padding-top: 3%;">
+			
+				<div>
+					<img src="/static/images/ssglogo2.png" width="50%">
+				</div>
+			</article>
+			<article class="contact" style="padding-top:8%;">
+				
+				<div style="height: 36px; vertical-align: middle;">
+					<img src="/static/images/con_email.png" style=" float: left; width: 36px;"><span style="line-height: 36px; float: left; padding-left: 10px;">E-Mail : <a style="text-decoration: none; color: #000; border:none;" href="mailto:sejongsecu@gmail.com">sejongsecu@gmail.com</a></span>
+				</div>
+				<div style="height: 36px; vertical-align: middle;">
+					<img src="/static/images/con_facebook.png" style=" float: left; width: 36px;"><span style="line-height: 36px; float: left; padding-left: 10px;">FaceBook : <a style="text-decoration: none; color: #000; border:none;" href="http://www.facebook.com/SSGCTF">www.facebook.com/SSGCTF</a></span>
+				</div>
+				<div style="height: 36px; vertical-align: middle;">
+					<img src="/static/images/con_blog.png" style=" float: left; width: 36px;"><span style="line-height: 36px; float: left; padding-left: 10px;">Site : <a style="text-decoration: none; color: #000; border:none;" href="http://apply.sejongssg.kr">apply.sejongssg.kr</a></span>
+				</div>
+				<div style="margin-top: 30px; text-align: left;">
+					<p>페이스북 메신저 및 이메일을 통해 문의해주시기 바랍니다.</p>
+				</div>
+		
+			</div>
+		</article>
+		</article>
+			
+		</article>
+    
+	</section>
+
+
+
+
+	<footer>
+	<div class="copyright" >
+		<p>ⓒ 2017. SSG all rights reserved.</p>
+	</div>
+</footer>	
+</body>
+ 
+
+<!-- jquery load -->
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/CB6E30CE-23DC-B54D-9FCE-12830B596FE5/main.js" charset="UTF-8"></script><script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="./static/js/default.js"></script>
+<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+
+
+<script>
+
+
+  //   $('body').on('click','.sub-button', function() {
+
+		// location.href = "https://docs.google.com/forms/d/e/1FAIpQLSf1J5ZAYcGj6tKdnc4Y99yBugaXomKGuGtGTEYMI5yJsGgrjA/viewform#start=openform";
+
+  //   });
+  //   $('body').on('click','.cc', function() {
+  //    	location.href = "./";
+  //   });
+    
+  //   $('body').on('click','.tt', function() {
+  //    	location.href = "./info.php";
+  //   });
+
+  //   $('body').on('click','.pp', function() {
+  //       location.href = "./apply.php";
+  //   });
+
+</script>
+
+
+
+</html>
