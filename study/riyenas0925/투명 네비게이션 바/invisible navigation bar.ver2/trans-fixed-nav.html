@@ -1,0 +1,97 @@
+<div class="header">
+	 
+	 <div class="navbar" id='nav'>
+
+       <ul>
+       	  <li>Home</li>
+       	  <li>Blog</li>
+       	  <li>Video</li>
+       	  <li>Contact</li>
+       	  <li>About</li>
+       </ul>
+
+	 </div>
+
+</div>
+
+<div class="box"></div>
+
+
+<!-- add some javascript code -->
+
+   <script type="text/javascript">
+   	
+   	 var  nav = document.getElementById('nav');
+      
+      window.onscroll = function(){
+
+      	if (window.pageYOffset >100) {
+
+      		nav.style.background = "#007bff";
+      		nav.style.boxShadow = "0px 4px 2px blue";
+      	}
+      	else{
+      		nav.style.background = "transparent";
+      		nav.style.boxShadow = "none";
+      	}
+      }
+
+
+
+   </script>
+
+
+
+<!-- add css style -->
+
+<style type="text/css">
+	   
+	   *{
+	   	padding: 0px;
+	   	margin:0px;
+	   	box-sizing: border-box;
+	   }
+
+	   .header{
+	   	 width: 100%;
+	   	 height: 100%;
+	   	 background-image:url(back.jpg);
+	   	 background-size: cover;
+
+	   }
+
+	   .navbar{
+	   	width: 100%;
+	   	padding: 20px;
+	   	position: fixed;
+	   	top: 0px;
+	   	text-align: center;
+	   	transition: .5s;
+	   }
+
+	   .navbar ul li{
+	   	list-style-type: none;
+	   	display:inline-block;
+	   	padding: 10px 50px;
+	   	color: white;
+	   	font-size: 24px;
+	   	font-family: sans-serif;
+	   	cursor: pointer;
+	   	border-radius:10px;
+	   	transition: .5s;
+	   }
+
+	   .navbar ul li:hover{
+	   	background: orange;
+	   }
+      
+      .box{
+      	width: 80%;
+      	height: 2000px;
+      	background: green;
+      	margin: 20px auto;
+
+      }
+ 
+
+</style>
