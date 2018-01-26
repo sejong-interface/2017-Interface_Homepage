@@ -72,7 +72,7 @@ body {
 .navbar ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 25px 50px;
+    padding-top: 20px;
     border-radius: 10px;
 
 }
@@ -84,7 +84,7 @@ body {
 
 
 .navbar-inverse .navbar-nav > li > a {
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
 }
 
@@ -98,7 +98,7 @@ body {
 /* Carousel base class */
 
 .carousel {
-    height: 500px;
+    height: 300px;
     margin-bottom: 60px;
 }
 
@@ -111,7 +111,7 @@ body {
 /* Declare heights because of positioning of img element */
 
 .carousel .item {
-    height: 500px;
+    height: 300px;
     background-color: #777;
 }
 
@@ -126,6 +126,12 @@ body {
 
 .nav.navbar-nav.navbar-right li a {
     color: blue;
+}
+
+.dropdown-toggle:active,
+.open .dropdown-toggle {
+    background: transparent !important;
+    color: #fff !important;
 }
 
 /* MARKETING CONTENT
@@ -172,20 +178,42 @@ body {
     /* Navbar positioning foo */
     .navbar-wrapper {
         margin-top: 0px;
+        height: 100px;
     }
-        
+
     .navbar-wrapper .container {
         padding-right: 15px;
         padding-left: 15px;
+
     }
+
     .navbar-wrapper .navbar {
         padding-right: 0;
         padding-left: 0;
     }
 
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 20px;
+    }
+
+    .carousel .item {
+        height: 700px;
+        background-color: #777;
+    }
+
+    .carousel {
+        height: 700px;
+        margin-bottom: 60px;
+    }
+
+
     /* The navbar becomes detached from the top, so we round the corners */
     .navbar-wrapper .navbar {
         border-radius: 4px;
+    }
+
+    .navbar ul li {
+        padding: 25px 50px;
     }
 
     /* Bump up size of carousel content */
