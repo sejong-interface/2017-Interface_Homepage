@@ -44,3 +44,10 @@
     margin: 20px auto;
 
 }
+
+.inf_logo {
+    width:auto;
+    list-style-position: :inside;
+    list-style-image: url(back.jpg);
+    list-style-type:disc;
+}
