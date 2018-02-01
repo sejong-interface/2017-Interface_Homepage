@@ -35,7 +35,7 @@ Download link is [here](http://brackets.io/).
 
 1. 회의는 [디스코드](https://discordapp.com/)로 진행합니다.(~~절대 방학에 밖에 나가기 싫어서 그런건 아님~~)
 
-2. 사용하는 언어는 HTML, CSS, Java Script를 이용한 반응형 웹(React Web)
+2. 사용하는 언어는 HTML, CSS, Java Script를 이용한 반응형 웹(Response Web)
 
 3. 사용하는 개발툴은 Brackets (코딩할때 실시간으로 변경사항들을 바로바로 보여준다.)
 
@@ -57,7 +57,7 @@ Download link is [here](http://brackets.io/).
 >아래 예제 및 강의에 생활코딩 WEBn 강의 참고
 
 - [ ] 3. 오픈소스 템플릿을 이용하여 홈페이지 제작 
->오픈소스 템플릿(HTML + CSS + JavaScript) 사용(React Web)
+>오픈소스 템플릿(HTML + CSS + JavaScript) 사용(Response Web)
 
 - [ ] 4. 서버 게시판 DB생성 및 홈페이지와 서버 연결
 >PHP 사용하여 데이터베이스 연동
