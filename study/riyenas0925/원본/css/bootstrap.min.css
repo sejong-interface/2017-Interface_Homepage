@@ -1225,27 +1225,11 @@ th {
     content: "\e227"
 }
 
-.glyphicon-btc:before {
-    content: "\e227"
-}
-
-.glyphicon-xbt:before {
-    content: "\e227"
-}
-
 .glyphicon-yen:before {
     content: "\00a5"
 }
 
-.glyphicon-jpy:before {
-    content: "\00a5"
-}
-
 .glyphicon-ruble:before {
-    content: "\20bd"
-}
-
-.glyphicon-rub:before {
     content: "\20bd"
 }
 
@@ -3167,13 +3151,9 @@ output {
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
+    cursor: not-allowed;
     background-color: #eee;
     opacity: 1
-}
-
-.form-control[disabled],
-fieldset[disabled] .form-control {
-    cursor: not-allowed
 }
 
 textarea.form-control {
@@ -3250,7 +3230,6 @@ input[type=search] {
 
 .checkbox-inline,
 .radio-inline {
-    position: relative;
     display: inline-block;
     padding-left: 20px;
     margin-bottom: 0;
@@ -3289,7 +3268,6 @@ fieldset[disabled] .radio label {
 }
 
 .form-control-static {
-    min-height: 34px;
     padding-top: 7px;
     padding-bottom: 7px;
     margin-bottom: 0
@@ -3339,7 +3317,6 @@ textarea.form-group-sm .form-control {
 
 .form-group-sm .form-control-static {
     height: 30px;
-    min-height: 32px;
     padding: 5px 10px;
     font-size: 12px;
     line-height: 1.5
@@ -3383,7 +3360,6 @@ textarea.form-group-lg .form-control {
 
 .form-group-lg .form-control-static {
     height: 46px;
-    min-height: 38px;
     padding: 10px 16px;
     font-size: 18px;
     line-height: 1.3333333
@@ -4122,7 +4098,7 @@ tbody.collapse.in {
     height: 0;
     margin-left: 2px;
     vertical-align: middle;
-    border-top: 4px dashed;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -5385,7 +5361,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 
 .navbar-inverse {
     background-color: #222;
-    border-color: #080808
+
 }
 
 .navbar-inverse .navbar-brand {
@@ -5785,7 +5761,6 @@ a.label:hover {
     top: -1px
 }
 
-.btn-group-xs > .btn .badge,
 .btn-xs .badge {
     top: 0;
     padding: 1px 5px
@@ -6786,11 +6761,11 @@ a.list-group-item-danger.active:hover {
     border: 0
 }
 
-.embed-responsive-16by9 {
+.embed-responsive.embed-responsive-16by9 {
     padding-bottom: 56.25%
 }
 
-.embed-responsive-4by3 {
+.embed-responsive.embed-responsive-4by3 {
     padding-bottom: 75%
 }
 
