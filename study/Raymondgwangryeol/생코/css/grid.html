@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<style>
+  #grid
+  {
+    border: 5px pink solid;
+    display:grid;
+    grid-template-columns:0.5fr 2fr; /*fr은 나머지 부분...? 이라고 생각하면 된다. 이건 동적임.*/
+  }
+  div
+  {
+    border:5px gray solid;
+  }
+</style>
+<body>
+  <div id="grid">
+    <div>navigation</div> <div>article</div>
+  </div>
+</body>
+</html>

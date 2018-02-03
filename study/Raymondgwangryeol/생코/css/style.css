@@ -1,0 +1,60 @@
+
+  a/*선택자*/
+  {
+    color:black;/*선언(속성:속성값)*/
+    text-decoration-line:none;
+  }
+  ol
+  {
+    border-right:1.5px solid black;
+    width:100px;
+    padding-left:25px;
+    margin-top:0;
+    padding-top:10px;
+  }
+  h1
+  {
+    font-size:45px;
+    text-align:center;
+    border-bottom:1.5px solid black;
+    margin:0;
+    padding:15px;
+  }
+  #active
+  {
+    color:red;
+  }
+  .saw
+  {
+    color:gray;
+  }
+  body{
+    margin:0;
+  }
+  #content
+  {
+    display:grid;
+    grid-template-columns:150px 2fr;
+  }
+  @media(max-width:700px)
+  {
+    #content
+    {
+      display:block;
+    }
+    ol
+    {
+      border-right:none;
+    }
+    h1
+    {
+      border-bottom:none;
+      text-decoration-line:underline;
+    }
+    #article
+    {
+      padding-left:10px;
+    }
+  }
+
+  /*a<class<id a는 가장 포괄적 id로 갈수록 구체적*/
