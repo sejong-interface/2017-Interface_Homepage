@@ -33,8 +33,7 @@ body {
 .navbar-wrapper .navbar {
     padding-right: 15px;
     padding-left: 15px;
-    background: transparent;
-    vertical-align: middle;
+    background: transparent;    //투명색
 }
 
 
