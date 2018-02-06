@@ -96,7 +96,6 @@ body {
 
 h1 {
     font-size: 12px;
-
 }
 
 /* 사이드바 래퍼 스타일 */
@@ -110,7 +109,7 @@ h1 {
     width: 250px;
     height: 100%;
     margin-left: -250px;
-    background: #000;
+    background: transparent;
     overflow-x: hidden;
     overflow-y: auto;
 }
