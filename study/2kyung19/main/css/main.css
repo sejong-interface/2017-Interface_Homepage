@@ -1,0 +1,332 @@
+@font-face{
+    font-family: 'DungGeunMo';
+    src: url(DungGeunMo.otf) format('truetype');
+}
+
+@font-face{
+    font-family: 'a고딕16';
+    src: url(a고딕16.ttf) format('truetype');
+}
+
+.old {
+    font-family: DungGeunMo;
+    font-size: 18px
+}
+
+.bicold {
+    font-family: DungGeunMo;
+    font-size: 55px
+}
+
+.a16 {
+    font-family: a고딕16;
+    font-size: 18px
+}
+
+.bica16 {
+    font-family: a고딕16;
+    font-size: 50px
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+.navbar-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+    border-style: none;
+}
+
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+    background: transparent;    //투명색
+}
+
+
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+.navbar-collapse collapse {
+    text-align: center;
+    flex-grow:
+}
+
+.navbar-nav {
+    float: none;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+
+
+.navbar-brand {
+    width: 110px;
+    height: 80px;
+    background-image: url(../images/inf_logo.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    background-size: contain;
+    background-position: center;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 20px;
+    border-radius: 10px;
+
+}
+
+
+.navbar ul li:hover {
+    background: silver;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    font-size: 15px;
+    color: #fff;
+}
+
+#navbar-inverse > ul > li {
+    text-align: center;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+
+.carousel {
+    height: 400px;
+    margin-bottom: 60px;
+}
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+
+
+.carousel .item {
+    height: 400px;
+    background-color: #777;
+}
+
+
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: auto;
+    width: 100%;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: normal;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 80px 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+/* RESPONSIVE CSS (small-pc)
+-------------------------------------------------- */
+
+@media (min-width: 800px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 0px;
+        height: 100px;
+    }
+
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 20px;
+    }
+
+    .carousel .item {
+        height: 450px;
+        background-color: #777;
+    }
+
+    .carousel {
+        height: 50vh;
+        width: 100%;
+        overflow: auto;
+    }
+    
+    .carousel .carousel-inner {
+        height: 100%;
+    }
+    
+    .back1_font {
+        font-size: 80px
+    }
+
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    .navbar ul li {
+        margin-top: 27px;
+        padding: 0px 15px;
+    }
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+/* RESPONSIVE CSS (big-pc)
+-------------------------------------------------- */
+
+@media (min-width: 2000px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 0px;
+        height: 100px;
+    }
+
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 20px;
+    }
+
+    .carousel .item {
+        height: 700px;
+        background-color: #777;
+    }
+
+    .carousel {
+        height: 100vh;
+        width: 100%;
+        overflow: auto;
+    }
+    
+    .carousel .carousel-inner {
+        height: 100%;
+    }
+    
+    .back1_font {
+        font-size: 80px
+    }
+
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    .navbar ul li {
+        margin-top: 27px;
+        margin: 27px;
+        padding: 0px 15px;
+    }
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+    
+}
+
