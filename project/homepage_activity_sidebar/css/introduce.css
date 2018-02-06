@@ -33,7 +33,8 @@ body {
 .navbar-wrapper .navbar {
     padding-right: 15px;
     padding-left: 15px;
-    background: transparent;    //투명색
+    background: transparent;
+    vertical-align: middle;
 }
 
 
@@ -233,7 +234,7 @@ body {
 /* RESPONSIVE CSS (big-pc)
 -------------------------------------------------- */
 
-@media (min-width: 2000px) {
+@media (min-width: 1600px) {
     /* Navbar positioning foo */
     .navbar-wrapper {
         margin-top: 0px;
