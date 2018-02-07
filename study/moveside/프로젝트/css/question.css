@@ -108,5 +108,25 @@ body {
 }
 
 th{
-    text-align: center;
+    text-align: left;
 }
+.people{
+    height: 25px;
+    width: 80px;
+    border: 1px solid black;    
+}
+.title1{
+    
+    
+    
+}
+.title2{
+    height: 25px;
+    width: 500px;
+    border: 1px solid black;
+    
+}   
+.question{
+    color: red;
+    font-weight:  bolder;
+}    
