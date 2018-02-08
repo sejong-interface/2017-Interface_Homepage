@@ -33,7 +33,7 @@ body {
 .navbar-wrapper .navbar {
     padding-right: 15px;
     padding-left: 15px;
-    background: transparent;
+    background: black;
     vertical-align: middle;
 }
 
@@ -61,8 +61,8 @@ body {
 
 
 .navbar-brand {
-    width: 130px;
-    height: 100px;
+    width: 110px;
+    height: 80px;
     background-image: url(../images/inf_logo.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -85,7 +85,7 @@ body {
 
 .navbar-inverse .navbar-nav > li > a {
     font-size: 15px;
-    color: #fff;
+    color: gray;
 }
 
 #navbar-inverse > ul > li {
@@ -127,13 +127,6 @@ th{
 
 }
 .question{
-    color: black;
+    color: red;
     font-weight:  bolder;
-<<<<<<< HEAD
-}    
-/* project start
--------------------------------------------------- */
-
-=======
 }
->>>>>>> 1326bd846c71a369c4af4f6521b8efac48c36eeb
