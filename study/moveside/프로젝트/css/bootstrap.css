@@ -1144,10 +1144,10 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 2px solid #eee;
 }
 .sr-only {
   position: absolute;
@@ -2278,6 +2278,7 @@ th {
 }
 .table > thead > tr > th {
   vertical-align: bottom;
+  
   border-bottom: 2px solid #ddd;
 }
 .table > caption + thead > tr:first-child > th,
