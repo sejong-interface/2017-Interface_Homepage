@@ -26,7 +26,7 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="css/activity.css" rel="stylesheet">
+    <link href="css/other.css" rel="stylesheet">
 </head>
 <!-- NAVBAR
 ================================================== -->
@@ -43,7 +43,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                        <a class="navbar-brand" href="https://riyenas0925.github.io"></a>
+                        <a class="navbar-brand" href="index.html"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
@@ -51,18 +51,19 @@
                             <li><a href="calendar.html">일정</a></li>
                             <li><a href="activity.html">활동</a></li>
                             <li><a href="notice.html">공지</a></li>
-                            <li><a href="question.html">Q&A</a></li>
+                            <li><a href="question.html">FAQ</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
     </div>
-    
-    <!-- ??? ?? html ??? ? -->
-    <div>
-        <!-- html ???????????? -->
+
+    <div class="space">
+
     </div>
+
+    <!-- ??? ?? html ??? ? -->
 
     <!-- FOOTER -->
     <div>
@@ -73,6 +74,27 @@
     </div>
 
 
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+
+    </script>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

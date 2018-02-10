@@ -14,13 +14,16 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 
+.navbar {
+    margin-bottom: 0;
+}
+
 .navbar-wrapper {
-    position: static;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 20;
-    background: #495057;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -29,13 +32,13 @@ body {
     padding-right: 0;
     padding-left: 0;
     border-style: none;
+
 }
 
 .navbar-wrapper .navbar {
     padding-right: 15px;
     padding-left: 15px;
-    background: transparent;
-    vertical-align: middle;
+    background: #495057; //투명색
 }
 
 
@@ -62,8 +65,8 @@ body {
 
 
 .navbar-brand {
-    width: 130px;
-    height: 100px;
+    width: 74px;
+    height: 50px;
     background-image: url(../images/inf_logo.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -73,9 +76,7 @@ body {
 .navbar ul li {
     list-style-type: none;
     display: inline-block;
-    padding-top: 20px;
     border-radius: 10px;
-
 }
 
 
@@ -93,15 +94,17 @@ body {
     text-align: center;
 }
 
+.space {
+    height: 50px;
+}
 
-/* RESPONSIVE CSS (small-pc)
--------------------------------------------------- */
-
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     /* Navbar positioning foo */
     .navbar-wrapper {
         margin-top: 0px;
         height: 100px;
+        background: #495057;
+
     }
 
     .navbar-wrapper .container {
@@ -113,31 +116,16 @@ body {
     .navbar-wrapper .navbar {
         padding-right: 0;
         padding-left: 0;
+        background: transparent;
     }
 
     .navbar-inverse .navbar-nav > li > a {
         font-size: 20px;
     }
 
-    .carousel .item {
-        height: 450px;
-        background-color: #777;
-    }
-
-    .carousel {
-        height: 50vh;
-        width: 100%;
-        overflow: auto;
-    }
-    
-    .carousel .carousel-inner {
-        height: 100%;
-    }
-    
     .back1_font {
         font-size: 80px
     }
-
 
     /* The navbar becomes detached from the top, so we round the corners */
     .navbar-wrapper .navbar {
@@ -149,26 +137,27 @@ body {
         padding: 0px 15px;
     }
 
-    /* Bump up size of carousel content */
-    .carousel-caption p {
-        margin-bottom: 20px;
-        font-size: 21px;
-        line-height: 1.4;
+    .navbar-brand {
+        width: 130px;
+        height: 100px;
+        background-image: url(../images/inf_logo.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
     }
 
-    .featurette-heading {
-        font-size: 50px;
+    .space {
+        height: 100px;
     }
 }
 
-/* RESPONSIVE CSS (big-pc)
--------------------------------------------------- */
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
     /* Navbar positioning foo */
     .navbar-wrapper {
         margin-top: 0px;
         height: 100px;
+        background: #495057;
     }
 
     .navbar-wrapper .container {
@@ -180,31 +169,12 @@ body {
     .navbar-wrapper .navbar {
         padding-right: 0;
         padding-left: 0;
+        background: transparent;
     }
 
     .navbar-inverse .navbar-nav > li > a {
         font-size: 20px;
     }
-
-    .carousel .item {
-        height: 700px;
-        background-color: #777;
-    }
-
-    .carousel {
-        height: 100vh;
-        width: 100%;
-        overflow: auto;
-    }
-    
-    .carousel .carousel-inner {
-        height: 100%;
-    }
-    
-    .back1_font {
-        font-size: 80px
-    }
-
 
     /* The navbar becomes detached from the top, so we round the corners */
     .navbar-wrapper .navbar {
@@ -217,16 +187,16 @@ body {
         padding: 0px 15px;
     }
 
-    /* Bump up size of carousel content */
-    .carousel-caption p {
-        margin-bottom: 20px;
-        font-size: 21px;
-        line-height: 1.4;
+    .navbar-brand {
+        width: 130px;
+        height: 100px;
+        background-image: url(../images/inf_logo.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
     }
 
-    .featurette-heading {
-        font-size: 50px;
+    .space {
+        height: 100px;
     }
-    
 }
-

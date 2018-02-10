@@ -44,7 +44,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                        <a class="navbar-brand" href="https://riyenas0925.github.io"></a>
+                        <a class="navbar-brand" href="index.html"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
@@ -79,53 +79,47 @@
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner" role="listbox">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
             <div class="item active">
-                <img class="second-slide" src="images/back.png" alt="first slide">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1 class="back1_font">Hello Interface!</h1>
-                        <br>
-                        <p></p>
-                        <p>#학술동아리 #공학 #컴퓨터 #자바 #C언어 #파이썬 #아두이노 #IoT #학생회관#518호</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">동아리 가입 신청하기</a></p>
-                    </div>
+                <img src="images/back.png" alt="Los Angeles" style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>Los Angeles</h3>
+                    <p>LA is always so much fun!</p>
                 </div>
             </div>
+
             <div class="item">
-                <img class="second-slide" src="images/back2.png" alt="Second slide">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <p></p>
-                        <p></p>
-                        <p>
-                            <!--
-                            <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
-                            -->
-                        </p>
-                    </div>
+                <img src="images/back2.png" alt="Chicago" style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>Chicago</h3>
+                    <p>Thank you, Chicago!</p>
                 </div>
             </div>
+
             <div class="item">
-                <img class="second-slide" src="images/back3.jpg" alt="Second slide">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>One more for good measure.</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-                    </div>
+                <img src="images/back3.png" alt="New York" style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>New York</h3>
+                    <p>We love the Big Apple!</p>
                 </div>
             </div>
+
         </div>
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
     </div>
+
     <!-- /.carousel -->
 
 
@@ -160,46 +154,47 @@
             <!-- /.col-lg-4 -->
         </div>
         <!-- /.row -->
-        
-                <!-- FOOTER -->
+
+        <!-- FOOTER -->
         <footer>
             <p class="pull-right"><a href="#">Back to top</a></p>
             <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
         </footer>
-        
+
     </div>
-        
 
 
 
-        <!-- Bootstrap core JavaScript
+
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-        <script src="js/holder.js"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
 
-        <!-- add some javascript code -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-        <script type="text/javascript">
-            var nav = document.getElementById('nav');
+    <!-- add some javascript code -->
 
-            window.onscroll = function() {
+    <script type="text/javascript">
+        var nav = document.getElementById('nav');
 
-                if (window.pageYOffset > 100) {
+        window.onscroll = function() {
 
-                    nav.style.background = "#495057";
+            if (window.pageYOffset > 100) {
 
-                } else {
-                    nav.style.background = "transparent";
-                    nav.style.boxShadow = "none";
-                }
+                nav.style.background = "#495057";
+
+            } else {
+                nav.style.background = "transparent";
+                nav.style.boxShadow = "none";
             }
-
-        </script>
+        }
+    </script>
 
 </body>
 
