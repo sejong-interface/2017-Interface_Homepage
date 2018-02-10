@@ -1,65 +1,152 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewprot" content="width=device-width, initial-scale=1">
-    <title> FAQ </title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/question.css">
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+      <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="css/question.css">
+      <title>Interface-FAQ</title>
+      <script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/CB6E30CE-23DC-B54D-9FCE-12830B596FE5/main.js" charset="UTF-8"></script>
+      <script src="js/ie-emulation-modes-warning.js"></script>
+      <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+      <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
   </head>
+  
   <body>
-    <div class="navbar-wrapper" id="nav">
-             <nav class="navbar navbar-inverse navbar-static-top">
-                     <div class="navbar-header">
-                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                 <span class="sr-only">Toggle navigation</span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-               </button>
-                         <a class="navbar-brand" href="https://riyenas0925.github.io"></a>
-                     </div>
-                     <div id="navbar" class="navbar-collapse collapse">
-                         <ul class="nav navbar-nav">
-                             <li><a href="introduce.html">소개</a></li>
-                             <li><a href="calendar.html">일정</a></li>
-                             <li><a href="homepage_activity_sidebar/activity.html">활동</a></li>
-                             <li><a href="notice.html">공지</a></li>
-                             <li><a href="question.html">FAQ</a></li>
-
-                             <!--
-                             <li class="dropdown">
-                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
-                                 <ul class="dropdown-menu" role="menu">
-                                     <li><a href="#">공지</a></li>
-                                     <li><a href="#">게시판</a></li>
-                                 </ul>
-                             </li>
-     -->
-                         </ul>
-                     </div>
-                 </div>
-             </nav>
-         </div>
-     </div>
+    <div class="navbar-wrapper">
+        <div class="container">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                        <a class="navbar-brand" href="https://riyenas0925.github.io"></a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="introduce.html">소개</a></li>
+                            <li><a href="calendar.html">일정</a></li>
+                            <li><a href="activity.html">활동</a></li>
+                            <li><a href="notice.html">공지</a></li>
+                            <li><a href="question.html">Q&A</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
   <!--******************************************End of codes of the navigation bar*****************************************************-->
-<div class="container">
-  <br><br><br><br><br>
-  <table>
-    <thead>
-        <th ><h1 style="border-bottom:black solid 1px; padding-bottom:5px; margin-bottom:30px;">title</h1></th>
-        <th colspan="4">&nbsp;</th>
-      </tr>
-    </thead>
-  </table>
-  <!--
-  <h1 style="border-bottom:black solid 1px; padding-bottom:5px; margin-bottom:30px;"> title </h1>
-  <div>
-    content
-  </div>
-  <br>
-  <input type=button onclick="location.href = 'question.html'" value="목록">
-</div>
--->
+  <div class="container">
+    <br><br><br><br><br>
+    <div class="page-header">
+        <h1> FAQ 게시판</h1>
+    </div>
+    <!-- Bootstrap FAQ - START -->
+    <div class="container">
+        <br />
+
+        <div class="panel-group" id="accordion">
+            <div class="faqHeader">General questions</div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">인페 가입비는 얼마인가요?</a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        10000
+                </div>
+            </div>
+          </div>
+          <br>
+          <!--=========================================================================================================-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">인페 컴퓨터는 몇개인가요?</a>
+                    </h4>
+                </div>
+                <div id="collapseTen" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      2
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--=========================================================================================================-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">인페 동방 위치는 어디인가요?</a>
+                    </h4>
+                </div>
+                <div id="collapseEleven" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      학생회관 518
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--=========================================================================================================-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .faqHeader {
+            font-size: 27px;
+            margin: 20px;
+        }
+
+        .panel-heading [data-toggle="collapse"]:after {
+            font-family: 'Glyphicons Halflings';
+            content: "\e072"; /* "play" icon */
+            float: right;
+            color: #F58723;
+            font-size: 18px;
+            line-height: 22px;
+            /* rotate "play" icon from > (right arrow) to down arrow */
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+
+        .panel-heading [data-toggle="collapse"].collapsed:after {
+            /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+            color: #454444;
+        }
+    </style>
+
+    <!-- Bootstrap FAQ - END -->
+
+    </div>
+    <!--================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
   </body>
 </html>
