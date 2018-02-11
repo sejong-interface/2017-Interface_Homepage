@@ -27,13 +27,13 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="css/other.css" rel="stylesheet">
+    <link href="css/sidebar.css" rel="stylesheet">
 
 </head>
 
 
 <body>
-    <div class="navbar-wrapper">
+    <div class="navbar-wrapper" id="nav">
         <div class="container">
             <nav class="navbar navbar-inverse navbar-static-top">
                 <div class="container">
@@ -52,7 +52,17 @@
                             <li><a href="calendar.html">일정</a></li>
                             <li><a href="activity.html">활동</a></li>
                             <li><a href="notice.html">공지</a></li>
-                            <li><a href="question.html">FAQ</a></li>
+                            <li><a href="question.html">Q&A</a></li>
+
+                            <!--
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">공지</a></li>
+                                    <li><a href="#">게시판</a></li>
+                                </ul>
+                            </li>
+    -->
                         </ul>
                     </div>
                 </div>
@@ -60,40 +70,35 @@
         </div>
     </div>
 
-    <div class="space">
-
-    </div>
+    
     <div class="wrapper">
         <!-- Sidebar Holder -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Bootstrap Sidebar</h3>
+                <h3>InterFace</h3>
             </div>
 
             <ul class="list-unstyled components">
-                <p>Dummy Heading</p>
+                <p>Activity</p>
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">프로그래밍 전시회</a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li><a href="#">Home 1</a></li>
-                        <li><a href="#">Home 2</a></li>
-                        <li><a href="#">Home 3</a></li>
+                        <li><a href="#">30기</a></li>
+                        <li><a href="#">31기</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">About</a>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
+                    <a href="#">스터디</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">방학프로젝트</a>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li><a href="#">Page 1</a></li>
-                        <li><a href="#">Page 2</a></li>
-                        <li><a href="#">Page 3</a></li>
+                        <li><a href="#">인터페이스 홈페이지</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="#">MT</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#">체육대회</a>
                 </li>
             </ul>
 
@@ -103,9 +108,13 @@
             </ul>
         </nav>
 
-
         <!-- Page Content Holder -->
         <div id="content">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>Toggle Sidebar</span>
+                            </button>
 
             <h2>Collapsible Sidebar Using Bootstrap 3</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -135,13 +144,9 @@
             <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
         </footer>
     </div>
-
-
-    <!-- jQuery CDN -->
+    
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <!-- Bootstrap Js CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- jQuery Custom Scroller CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
     <script type="text/javascript">
@@ -156,18 +161,8 @@
                 $('a[aria-expanded=true]').attr('aria-expanded', 'false');
             });
         });
-
     </script>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="js/holder.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
 
 </body>
 
