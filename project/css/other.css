@@ -1,3 +1,54 @@
+@font-face{
+    font-family: 'DungGeunMo';
+    src: url(DungGeunMo.otf) format('truetype');
+}
+
+@font-face{
+    font-family: 'a고딕16';
+    src: url(a고딕16.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'a고딕12';
+    src: url(a고딕12.ttf) format('truetype');
+}
+
+.old {
+    font-family: DungGeunMo;
+    font-size: 20px;
+    color: #111111;
+}
+
+.bicold {
+    font-family: DungGeunMo;
+    font-size: 55px
+}
+
+.bicoldkr {
+    font-family: DungGeunMo;
+    font-size: 50px
+}
+
+.a16 {
+    font-family: a고딕16;
+    font-size: 18px
+}
+
+.bica16 {
+    font-family: a고딕16;
+    font-size: 50px
+}
+
+.a12 {
+    font-family: a고딕12;
+    font-size:14px;
+    color: #111111;
+}
+
+.text {
+    text-align: center;
+}
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 
