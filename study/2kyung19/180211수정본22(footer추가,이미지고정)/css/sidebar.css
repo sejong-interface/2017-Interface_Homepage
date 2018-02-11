@@ -1,0 +1,433 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url(DungGeunMo.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'a고딕16';
+    src: url(a고딕16.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'a고딕12';
+    src: url(a고딕12.ttf) format('truetype');
+}
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+.old {
+    font-family: DungGeunMo;
+    font-size: 20px;
+    color: #111111;
+}
+
+.bicold {
+    font-family: DungGeunMo;
+    font-size: 55px
+}
+
+.bicoldkr {
+    font-family: DungGeunMo;
+    font-size: 50px
+}
+
+.a16 {
+    font-family: a고딕16;
+    font-size: 18px
+}
+
+.bica16 {
+    font-family: a고딕16;
+    font-size: 50px
+}
+
+.a12 {
+    font-family: a고딕12;
+    font-size: 14px;
+    color: #111111;
+}
+
+.text {
+    text-align: center;
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+    border-style: none;
+
+}
+
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #495057; //투명색
+}
+
+
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+.navbar-collapse collapse {
+    text-align: center;
+    flex-grow:
+}
+
+.navbar-nav {
+    float: none;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+
+
+.navbar-brand {
+    width: 74px;
+    height: 50px;
+    background-image: url(../images/inf_logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+.navbar ul li:hover {
+    background: silver;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    font-size: 15px;
+    color: #fff;
+}
+
+#navbar-inverse > ul > li {
+    text-align: center;
+}
+
+.space {
+    height: 50px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a[aria-expanded="false"]::before,
+a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+
+a[aria-expanded="true"]::before {
+    content: '\e260';
+}
+
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: calc(100% - 250px);
+    padding: 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+#content.active {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 0px;
+        height: 100px;
+        background: #495057;
+
+    }
+
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+        background: transparent;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 20px;
+    }
+
+    .back1_font {
+        font-size: 80px
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    .navbar ul li {
+        margin-top: 27px;
+        padding: 0px 15px;
+    }
+
+    .navbar-brand {
+        width: 130px;
+        height: 100px;
+        background-image: url(../images/inf_logo.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .space {
+        height: 100px;
+    }
+
+    #content {
+        top: 100px;
+    }
+
+    #sidebar {
+        top: 100px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 0px;
+        height: 100px;
+        background: #495057;
+    }
+
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+        background: transparent;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 20px;
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    .navbar ul li {
+        margin-top: 27px;
+        margin: 27px;
+        padding: 0px 15px;
+    }
+
+    .navbar-brand {
+        width: 130px;
+        height: 100px;
+        background-image: url(../images/inf_logo.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .space {
+        height: 100px;
+    }
+
+    #content {
+        top: 100px;
+    }
+
+    #sidebar {
+        top: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 250px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
