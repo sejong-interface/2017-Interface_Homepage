@@ -1,7 +1,7 @@
 <h1 align="center">인터페이스 겨울방학 프로젝트</h1>
 
 
-## [인터페이스 동아리 홈페이지](http://riyenas0925.dothome.io)
+## [인터페이스 동아리 홈페이지](http://riyenas0925.github.io)
 
 ![ScreenShot](design/images/logo.jpg) 
 
