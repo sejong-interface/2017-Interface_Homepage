@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url(DungGeunMo.otf) format('truetype');
+}
+
+@font-face {
+    font-family: '나눔스퀘어';
+    src: url(NanumSquareEB.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: '나눔바른고딕';
+    src: url(NanumBarunGothicUltraLight.ttf) format('truetype');
+}
+
+.old {
+    font-family: DungGeunMo;
+    font-size: 20px;
+    color: #111111;
+}
+
+.bicold {
+    font-family: DungGeunMo;
+    font-size: 55px
+}
+
+.bicoldkr {
+    font-family: DungGeunMo;
+    font-size: 50px
+}
+
+.titleold {
+    font-family: DungGeunMo;
+    font-size: 50px;
+    color: #262626
+}
+
+.w-old {
+    font-family: DungGeunMo;
+    font-size: 30px;
+    color: #ffffff
+}
+
+.a16 {
+    font-family: 나눔스퀘어;
+    font-size: 18px;
+}
+
+.bica16 {
+    font-family: 나눔스퀘어;
+    font-size: 50px;
+}
+
+.a12 {
+    font-family: 나눔바른고딕;
+    font-size: 14px;
+    color: #111111;
+}
+
+.wa12 {
+    font-family: 나눔바른고딕;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.text {
+    text-align: center;
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-bottom: 40px;
+    color: #262626;
+}
+
+.calender {
+    background-image: url("../images/schm.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+}
+
+.calener2 {
+    display: none;
+    background-image: url("../images/sch.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+    border-style: none;
+
+}
+
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #262626; //투명색
+}
+
+
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+.navbar-collapse collapse {
+    text-align: center;
+    flex-grow:
+}
+
+.navbar-nav {
+    float: none;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+
+
+.navbar-brand {
+    width: 74px;
+    height: 50px;
+    background-image: url(../images/inf_logo.wepb);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+.navbar ul li:hover {
+    background: silver;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    font-size: 15px;
+    color: #fff;
+}
+
+#navbar-inverse > ul > li {
+    text-align: center;
+}
+
+.space {
+    height: 50px;
+}
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 0px;
+        height: 100px;
+        background: #262626;
+    }
+
+    .calender2 {
+        background-image: url("../images/sch.webp");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+    }
+    
+    .calender {
+        display: none;
+    }
+
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+        background: transparent;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 20px;
+    }
+
+    .back1_font {
+        font-size: 80px
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    .navbar ul li {
+        margin-top: 27px;
+        padding: 0px 15px;
+    }
+
+    .navbar-brand {
+        width: 130px;
+        height: 100px;
+        background-image: url(../images/inf_logo.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .space {
+        height: 100px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    /* Navbar positioning foo */
+    .calender {
+        display: none;
+    }
+
+    .navbar-wrapper {
+        margin-top: 0px;
+        height: 100px;
+        background: #262626;
+    }
+
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+        background: transparent;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        font-size: 20px;
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    .navbar ul li {
+        margin-top: 27px;
+        margin: 27px;
+        padding: 0px 15px;
+    }
+
+    .navbar-brand {
+        width: 130px;
+        height: 100px;
+        background-image: url(../images/inf_logo.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .space {
+        height: 100px;
+    }
+}
