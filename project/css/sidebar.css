@@ -121,7 +121,7 @@ body {
 .navbar-brand {
     width: 74px;
     height: 50px;
-    background-image: url(../images/inf_logo.png);
+    background-image: url(../images/inf_logo.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -337,7 +337,7 @@ a.article:hover {
     .navbar-brand {
         width: 130px;
         height: 100px;
-        background-image: url(../images/inf_logo.png);
+        background-image: url(../images/inf_logo.webp);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
