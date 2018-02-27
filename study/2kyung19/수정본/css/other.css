@@ -77,15 +77,15 @@ body {
     color: #262626;
 }
 
-.calender {
+.calendar {
     background-image: url("../images/schm.webp");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width: 100%;
+    width: 300px;
 }
 
-.calener2 {
+.calendar2 {
     display: none;
     background-image: url("../images/sch.webp");
     background-repeat: no-repeat;
@@ -151,9 +151,10 @@ body {
 
 
 .navbar-brand {
-    width: 74px;
-    height: 50px;
-    background-image: url(../images/inf_logo.wepb);
+    margin-top: 5px;
+    width: 50px;
+    height: 40px;
+    background-image: url(../images/inf_logo.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -172,7 +173,7 @@ body {
 
 
 .navbar-inverse .navbar-nav > li > a {
-    font-size: 15px;
+    font-size: 10px;
     color: #fff;
 }
 
@@ -192,16 +193,21 @@ body {
         background: #262626;
     }
 
-    .calender2 {
+    .calendar2 {
         background-image: url("../images/sch.webp");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
         width: 100%;
     }
-    
-    .calender {
+
+    .calendar {
         display: none;
+        background-image: url("../images/schm.webp");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
     }
 
     .navbar-wrapper .container {
@@ -235,8 +241,9 @@ body {
     }
 
     .navbar-brand {
-        width: 130px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
+        margin-top: 10px;
         background-image: url(../images/inf_logo.webp);
         background-repeat: no-repeat;
         background-size: contain;
@@ -251,9 +258,23 @@ body {
 
 @media (min-width: 1024px) {
     /* Navbar positioning foo */
-    .calender {
-        display: none;
+    .calendar2 {
+        background-image: url("../images/sch.webp");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
     }
+    .calendar {
+        display: none;
+        background-image: url("../images/schm.webp");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+    }
+
+
 
     .navbar-wrapper {
         margin-top: 0px;
@@ -275,6 +296,7 @@ body {
 
     .navbar-inverse .navbar-nav > li > a {
         font-size: 20px;
+        color: #fff
     }
 
     /* The navbar becomes detached from the top, so we round the corners */
@@ -289,8 +311,9 @@ body {
     }
 
     .navbar-brand {
-        width: 130px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
+        margin-top: 10px;
         background-image: url(../images/inf_logo.webp);
         background-repeat: no-repeat;
         background-size: contain;
