@@ -1,0 +1,54 @@
+<?php
+$conn = mysqli_connect("localhost", "root", par1337);
+mysqli_select_db($conn, "test_interface");
+$result = mysqli_query($conn, "SELECT * FROM qna");
+?>
+<!DOCTYPE html>
+<html lan="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewprot" content="width=device-width, initial-scale=1">
+    <title> Q&A </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/question.css">
+
+</head>
+<body>
+<div class="container">
+<h1> Q&A 게시판</h1>
+<table class=table table-hover>
+    <thead>
+    <tr>
+        <th><? echo "번호".$_POST["num"]?></th>
+        <th><? echo "제목".$_POST["title"]?></th>
+        <th><? echo "작성자".$_POST["author"]?></th>
+        <th><? echo "날짜".$_POST["date"]?></th>
+        <th><? echo "조회수".$_POST["count"]?></th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+<hr/>
+<select name="search">
+    <option>제목</option>
+    <option>작성자</option>
+    <option>내용</option>
+</select>
+<input type="text">
+<input type="submit" value="검색">
+<a href="question_write.html" class="btn btn-default pull-right">글쓰기</a>
+<div class="text-center">
+    <ul class="pagination">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+    </ul>
+</div>
+</div>
+
+</body>
+</html>

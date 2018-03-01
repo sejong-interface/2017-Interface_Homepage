@@ -1,0 +1,51 @@
+<?php
+$conn = mysqli_connect("localhost", "root", par1337);
+mysqli_select_db($conn, "test_interface");
+$result = mysqli_query($conn, "SELECT * FROM qna");
+?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="js\bootstrap.js">
+    <title>Q&A</title>
+  </head>
+  <body>
+  <div class="container">
+  <table class=table table-hover>
+  <thead>
+  <tr>
+    <th style="font-size:50px;">Q&A</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+    <th>&nbsp;</th>
+  </tr>
+  </thead>
+  <tbody>
+     <tr>
+      <td >제목</td>
+      <td><input type="text" class="form-control" placeholder="제목 입력"></td>
+      <td>&nbsp;</td>
+     </tr>
+    <tr>
+      <td >이름</td>
+      <td><input type="text" class="form-control" placeholder="이름 입력"></td>
+      <td>&nbsp;</td>
+     </tr>
+       <tr>
+        <td >내용</td>
+        <td><textarea class="form-control" rows="3"  placeholder="내용 입력" height="400px"></textarea></td>
+        <td>&nbsp;</td>
+       </tr>
+     <tr align="center">
+      <td>&nbsp;</td>
+      <td colspan="2"><input type=button value="등록">
+       <input type=button onclick="history.go(-1)" value="취소">
+      <td>&nbsp;</td>
+     </tr>
+   </tbody>
+    </table>
+  </container>
+  </body>
+</html>
