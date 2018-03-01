@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Interface</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/CB6E30CE-23DC-B54D-9FCE-12830B596FE5/main.js" charset="UTF-8"></script>
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/sidebar.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class="navbar-wrapper" id="nav">
+        <div class="container">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                        <a class="navbar-brand" href="index.html"></a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="introduce.html">소개</a></li>
+                            <li><a href="calendar.html">일정</a></li>
+                            <li><a href="activity.html">활동</a></li>
+                            <li><a href="notice.html">공지</a></li>
+                            <li><a href="question.html">Q&A</a></li>
+
+                            <!--
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">공지</a></li>
+                                    <li><a href="#">게시판</a></li>
+                                </ul>
+                            </li>
+    -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Activity</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">프로그래밍 전시회</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li><a href="activity_30.html">30기</a></li>
+                        <li><a href="#">31기</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="activity_study.html">스터디</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">방학프로젝트</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li><a href="activity_vacation.html">인터페이스 홈페이지</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="activity_MT.html">MT</a>
+                </li>
+                <li>
+                    <a href="activity_ath.html">체육대회</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>Toggle Sidebar</span>
+                            </button>
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">C언어 스터디</h2>
+                    <p class="lead">저희 인터페이스 동아리는 많은 공대, 소융대 학생들의 1학년 전공 과목인 C언어에 대한 스터디를 진행하고 있습니다.<br> 주로 인증시험, 기말고사를 앞두고 진행하는 경우가 많고 그 기간 외에도 스터디를 진행하는 학생이 질문을 받고 답변을 주는 등 스터디를 진행하는 학생들에게 도움이 되게끔 진행하고 있습니다. <br>17년도에는 16학번 컴공 선배님들이 C언어 스터디를 진행해 주셨고 18년도에 C언어 스터디도 마찬가지로 1학년때 C언어를 전공으로 들었던 17학번 학생들이 진행할 예정입니다.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" img src="images/C_study.jpg" alt="Generic placeholder image" style="width: 45%">
+                </div>
+            </div>
+            
+            
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">파이썬 스터디</h2>
+                    <p class="lead">저희 인터페이스 동아리에서는 C언어 스터디와 마찬가지로 대다수의 공대, 소융대, 생과대 학생들의 1학년 전공 혹은 중필 과목인 파이썬에 대해서도 스터디를 진행합니다. <br>주로 중간고사, 기말고사를 대비하는 기간에 진행할 예정입니다. 17년도 파이썬 스터디때는 1학년때 파이썬을 공부하셨던 16학번 선배님들이 진행하셨고 18년도 스터디도 마찬가지로 1학년때 파이썬을 공부했던 17학번 학생들이 진행할 예정입니다.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" img src="images/P_study.jpg" alt="Generic placeholder image" style="width: 45%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+
+    </script>
+
+
+</body>
+
+</html>

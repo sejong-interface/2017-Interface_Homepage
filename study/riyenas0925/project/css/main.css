@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url(DungGeunMo.otf) format('truetype');
+}
+
+@font-face {
+    font-family: '나눔스퀘어';
+    src: url(NanumSquareEB.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: '나눔바른고딕';
+    src: url(NanumBarunGothicUltraLight.ttf) format('truetype');
+}
+
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 
@@ -5,7 +21,7 @@
 
 body {
     padding-bottom: 40px;
-    color: #5a5a5a;
+    color: #262626;
 }
 
 
@@ -13,6 +29,10 @@ body {
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+.navbar {
+    margin-bottom: 0;
+}
 
 .navbar-wrapper {
     position: fixed;
@@ -28,12 +48,13 @@ body {
     padding-right: 0;
     padding-left: 0;
     border-style: none;
+
 }
 
 .navbar-wrapper .navbar {
     padding-right: 15px;
     padding-left: 15px;
-    background: transparent;    //투명색
+    background: #262626; //투명색
 }
 
 
@@ -60,9 +81,10 @@ body {
 
 
 .navbar-brand {
-    width: 130px;
-    height: 100px;
-    background-image: url(../images/inf_logo.png);
+    margin-top: 5px;
+    width: 50px;
+    height: 40px;
+    background-image: url(../images/inf_logo.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -71,9 +93,7 @@ body {
 .navbar ul li {
     list-style-type: none;
     display: inline-block;
-    padding-top: 20px;
     border-radius: 10px;
-
 }
 
 
@@ -83,7 +103,7 @@ body {
 
 
 .navbar-inverse .navbar-nav > li > a {
-    font-size: 15px;
+    font-size: 12px;
     color: #fff;
 }
 
@@ -94,43 +114,18 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
-
 .carousel {
-    height: 400px;
-    margin-bottom: 60px;
+    margin-top: 50px;
 }
-
-/* Since positioning the image, we need to help out the caption */
-
-.carousel-caption {
-    z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-
-
-.carousel .item {
-    height: 400px;
-    background-color: #777;
-}
-
-
-
-.carousel-inner > .item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    height: auto;
-    width: 100%;
-}
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
+
+.marketing {
+    padding-top: 50px;
+}
 
 .marketing .col-lg-4 {
     margin-bottom: 20px;
@@ -144,29 +139,44 @@ body {
 .marketing .col-lg-4 p {
     margin-right: 10px;
     margin-left: 10px;
+
+}
+
+/*작은화면 글꼴*/
+
+.old {
+    font-family: DungGeunMo;
+    font-size: 25px
+}
+
+.bicold {
+    font-family: DungGeunMo;
+    font-size: 25px;
+}
+
+.bicoldkr {
+    font-family: DungGeunMo;
+    font-size: 50px
+}
+
+.a16 {
+    font-family: 나눔스퀘어;
+    font-size: 10px;
+}
+
+.bica16 {
+    font-family: 나눔스퀘어;
+    font-size: 20px;
+}
+
+.a12 {
+    font-family: 나눔바른고딕;
+    font-size: 12px;
 }
 
 
-/* Featurettes
-------------------------- */
 
-.featurette-divider {
-    margin: 80px 0;
-    /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-
-.featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -1px;
-}
-
-/* RESPONSIVE CSS (small-pc)
--------------------------------------------------- */
-
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     /* Navbar positioning foo */
     .navbar-wrapper {
         margin-top: 0px;
@@ -182,31 +192,16 @@ body {
     .navbar-wrapper .navbar {
         padding-right: 0;
         padding-left: 0;
+        background: transparent;
     }
 
     .navbar-inverse .navbar-nav > li > a {
         font-size: 20px;
     }
 
-    .carousel .item {
-        height: 450px;
-        background-color: #777;
-    }
-
-    .carousel {
-        height: 50vh;
-        width: 100%;
-        overflow: auto;
-    }
-    
-    .carousel .carousel-inner {
-        height: 100%;
-    }
-    
     .back1_font {
         font-size: 80px
     }
-
 
     /* The navbar becomes detached from the top, so we round the corners */
     .navbar-wrapper .navbar {
@@ -218,22 +213,60 @@ body {
         padding: 0px 15px;
     }
 
-    /* Bump up size of carousel content */
-    .carousel-caption p {
-        margin-bottom: 20px;
-        font-size: 21px;
-        line-height: 1.4;
+    .navbar-brand {
+        width: 90px;
+        height: 90px;
+        margin-top: 10px;
+        background-image: url(../images/inf_logo.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .carousel {
+        margin-top: 0px;
     }
 
     .featurette-heading {
         font-size: 50px;
     }
+
+
+    /*큰화면 글꼴*/
+    .old {
+        font-family: DungGeunMo;
+        font-size: 25px
+    }
+
+    .bicold {
+        font-family: DungGeunMo;
+        font-size: 55px
+    }
+
+    .bicoldkr {
+        font-family: DungGeunMo;
+        font-size: 50px
+    }
+
+    .a16 {
+        font-family: 나눔스퀘어;
+        font-size: 18px
+    }
+
+    .bica16 {
+        font-family: 나눔스퀘어;
+        font-size: 50px
+    }
+
+    .a12 {
+        font-family: 나눔바른고딕;
+        font-size: 11px;
+    }
+
 }
 
-/* RESPONSIVE CSS (big-pc)
--------------------------------------------------- */
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
     /* Navbar positioning foo */
     .navbar-wrapper {
         margin-top: 0px;
@@ -249,31 +282,16 @@ body {
     .navbar-wrapper .navbar {
         padding-right: 0;
         padding-left: 0;
+        background: transparent;
     }
 
     .navbar-inverse .navbar-nav > li > a {
         font-size: 20px;
     }
 
-    .carousel .item {
-        height: 700px;
-        background-color: #777;
-    }
-
-    .carousel {
-        height: 100vh;
-        width: 100%;
-        overflow: auto;
-    }
-    
-    .carousel .carousel-inner {
-        height: 100%;
-    }
-    
     .back1_font {
         font-size: 80px
     }
-
 
     /* The navbar becomes detached from the top, so we round the corners */
     .navbar-wrapper .navbar {
@@ -286,16 +304,53 @@ body {
         padding: 0px 15px;
     }
 
-    /* Bump up size of carousel content */
-    .carousel-caption p {
-        margin-bottom: 20px;
-        font-size: 21px;
-        line-height: 1.4;
+    .navbar-brand {
+        width: 90px;
+        height: 90px;
+        margin-top: 10px;
+        background-image: url(../images/inf_logo.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .carousel {
+        margin-top: 0px;
     }
 
     .featurette-heading {
         font-size: 50px;
     }
-    
-}
 
+
+    /*큰화면 글꼴*/
+    .old {
+        font-family: DungGeunMo;
+        font-size: 25px
+    }
+
+    .bicold {
+        font-family: DungGeunMo;
+        font-size: 55px
+    }
+
+    .bicoldkr {
+        font-family: DungGeunMo;
+        font-size: 50px
+    }
+
+    .a16 {
+        font-family: 나눔스퀘어;
+        font-size: 18px
+    }
+
+    .bica16 {
+        font-family: 나눔스퀘어;
+        font-size: 50px
+    }
+
+    .a12 {
+        font-family: 나눔바른고딕;
+        font-size: 12px
+    }
+}
