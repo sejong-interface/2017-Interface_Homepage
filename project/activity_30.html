@@ -40,8 +40,8 @@
                             <li><a href="introduce.html">소개</a></li>
                             <li><a href="calendar.html">일정</a></li>
                             <li><a href="activity.html">활동</a></li>
-                            <li><a href="notice.html">공지</a></li>
-                            <li><a href="question.html">Q&A</a></li>
+                            <li><a href="notice.html">자료실</a></li>
+                            <li><a href="question.html">FAQ</a></li>
 
                             <!--
                             <li class="dropdown">
@@ -99,10 +99,14 @@
                                 <i class="glyphicon glyphicon-align-left"></i>
                                 <span>Toggle Sidebar</span>
                             </button>
-             
-            
-            
-        <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h2 class="featurette-heading">프로그래밍 전시회</h2>
+                    <p class="lead">저희 인터페이스 동아리는 많은 공대, 소융대 학생들의 1학년 전공 과목인 C언어에 대한 스터디를 진행하고 있습니다.<br> 주로 인증시험, 기말고사를 앞두고 진행하는 경우가 많고 그 기간 외에도 스터디를 진행하는 학생이 질문을 받고 답변을 주는 등 스터디를 진행하는 학생들에게 도움이 되게끔 진행하고 있습니다. <br>17년도에는 16학번 컴공 선배님들이 C언어 스터디를 진행해 주셨고 18년도에 C언어 스터디도 마찬가지로 1학년때 C언어를 전공으로 들었던 17학번 학생들이 진행할 예정입니다.</p>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
 
             <div class="row featurette">
                 <div class="col-md-7">
@@ -113,21 +117,21 @@
                     <img class="featurette-image img-responsive center-block" img src="images/meching_img.png" alt="Generic placeholder image" style="width: 35%">
                 </div>
             </div>
-            
-        
-          <hr class="featurette-divider">
+
+
+            <hr class="featurette-divider">
 
             <div class="row featurette">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">2팀 - AAA(ATM 위치 알림)<span class="text-muted"></span></h2>
-                    <p class="lead">GPS를 이용해서 사용자의 위치를 파악한 후 그 주의 일정 반경에 있는 ATM기기의 위치를 지도에 표시해 주는 기능이 있습니다. <br>또, 사용자가 설정한 위치에서의 ATM기기도 표시해 줍니다.  <br>또한 사용자의 주거래 은행도 설정할 수 있어서 사용자가 설정한 은행의 ATM기기만 지도상에 띄워주는 것도 가능합니다.</p>
+                    <p class="lead">GPS를 이용해서 사용자의 위치를 파악한 후 그 주의 일정 반경에 있는 ATM기기의 위치를 지도에 표시해 주는 기능이 있습니다. <br>또, 사용자가 설정한 위치에서의 ATM기기도 표시해 줍니다. <br>또한 사용자의 주거래 은행도 설정할 수 있어서 사용자가 설정한 은행의 ATM기기만 지도상에 띄워주는 것도 가능합니다.</p>
                 </div>
                 <div class=" col-md-5">
                     <img class="featurette-image img-responsive center-block" img src="images/aaa.png" alt="Generic placeholder image" style="width: 35%">
                 </div>
             </div>
-            
-             
+
+
             <hr class="featurette-divider">
 
             <div class="row featurette">
@@ -151,28 +155,28 @@
                     <img class="featurette-image img-responsive center-block" img src="images/realinterface_check.png" alt="Generic placeholder image" style="width: 25%">
                 </div>
             </div>
-            
+
         </div>
-    
 
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $("#sidebar").mCustomScrollbar({
-                theme: "minimal" 
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+
+                $('#sidebarCollapse').on('click', function() {
+                    $('#sidebar, #content').toggleClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
             });
 
-            $('#sidebarCollapse').on('click', function() {
-                $('#sidebar, #content').toggleClass('active');
-                $('.collapse.in').toggleClass('in');
-                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-            });
-        });
-
-    </script>
+        </script>
 
 
 </body>
