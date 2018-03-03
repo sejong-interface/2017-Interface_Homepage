@@ -1,16 +1,16 @@
 @font-face {
-    font-family: 'DungGeunMo';
-    src: url(DungGeunMo.otf) format('truetype');
+    font-family: DungGeunMo;
+    src: url(../fonts/DungGeunMo.otf) format('otf');
 }
 
 @font-face {
-    font-family: '나눔스퀘어';
-    src: url(NanumSquareEB.ttf) format('truetype');
+    font-family: "나눔스퀘어";
+    src: url(../fonts/NanumSquareEB.ttf) format('ttf');
 }
 
 @font-face {
-    font-family: '나눔바른고딕';
-    src: url(NanumBarunGothicUltraLight.ttf) format('truetype');
+    font-family: "나눔바른고딕";
+    src: url(../fonts/NanumBarunGothicUltraLight.ttf) format('ttf');
 }
 
 
@@ -216,7 +216,7 @@ body {
     .navbar-brand {
         width: 90px;
         height: 90px;
-        margin-top: 10px;
+        margin-top: 5px;
         background-image: url(../images/inf_logo.webp);
         background-repeat: no-repeat;
         background-size: contain;
@@ -262,7 +262,6 @@ body {
         font-family: 나눔바른고딕;
         font-size: 11px;
     }
-
 }
 
 
@@ -307,7 +306,7 @@ body {
     .navbar-brand {
         width: 90px;
         height: 90px;
-        margin-top: 10px;
+        margin-top: 5px;
         background-image: url(../images/inf_logo.webp);
         background-repeat: no-repeat;
         background-size: contain;
