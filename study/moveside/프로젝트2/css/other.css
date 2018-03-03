@@ -250,3 +250,13 @@ body {
         height: 100px;
     }
 }
+.accordion-toggle:hover {
+    font-weight: bold;
+}
+.accordion-toggle:active {
+    font-weight: bold;
+}
+.accordion-toggle:visited {
+    font-weight: bold;
+}
+ a{text-decoration: none !important}
