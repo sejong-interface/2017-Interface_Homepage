@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'DungGeunMo';
-    src: url(DungGeunMo.otf) format('truetype');
+    src: url(DungGeunMo.otf) format('otf');
 }
 
 @font-face {
     font-family: '나눔스퀘어';
-    src: url(NanumSquareEB.ttf) format('truetype');
+    src: url(NanumSquareEB.ttf) format('ttf');
 }
 
 @font-face {
     font-family: '나눔바른고딕';
-    src: url(NanumBarunGothicUltraLight.ttf) format('truetype');
+    src: url(NanumBarunGothicUltraLight.ttf) format('ttf');
 }
 
 .old {
@@ -194,6 +194,7 @@ body {
     }
 
     .calendar2 {
+        display: block;
         background-image: url("../images/sch.webp");
         background-repeat: no-repeat;
         background-size: contain;
@@ -203,7 +204,6 @@ body {
 
     .calendar {
         display: none;
-        background-image: url("../images/schm.webp");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -213,7 +213,6 @@ body {
     .navbar-wrapper .container {
         padding-right: 15px;
         padding-left: 15px;
-
     }
 
     .navbar-wrapper .navbar {
@@ -243,7 +242,7 @@ body {
     .navbar-brand {
         width: 90px;
         height: 90px;
-        margin-top: 10px;
+        margin-top: 5px;
         background-image: url(../images/inf_logo.webp);
         background-repeat: no-repeat;
         background-size: contain;
@@ -273,8 +272,6 @@ body {
         background-position: center;
         width: 100%;
     }
-
-
 
     .navbar-wrapper {
         margin-top: 0px;
@@ -313,11 +310,35 @@ body {
     .navbar-brand {
         width: 90px;
         height: 90px;
-        margin-top: 10px;
+        margin-top: 5px;
         background-image: url(../images/inf_logo.webp);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
+    }
+
+    .calendar2 {
+        background-image: url("../images/sch.webp");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+    }
+
+    .calendar {
+        display: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+    }
+
+    .calendar2 {
+        display: block;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
     }
 
     .space {

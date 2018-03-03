@@ -1,16 +1,16 @@
 @font-face {
     font-family: DungGeunMo;
-    src: url(../fonts/DungGeunMo.otf) format('otf');
+    src: url(DungGeunMo.otf) format('otf');
 }
 
 @font-face {
     font-family: "나눔스퀘어";
-    src: url(../fonts/NanumSquareEB.ttf) format('ttf');
+    src: url(NanumSquareEB.ttf) format('ttf');
 }
 
 @font-face {
     font-family: "나눔바른고딕";
-    src: url(../fonts/NanumBarunGothicUltraLight.ttf) format('ttf');
+    src: url(NanumBarunGothicUltraLight.ttf) format('ttf');
 }
 
 

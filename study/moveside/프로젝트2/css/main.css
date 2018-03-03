@@ -283,19 +283,6 @@ body {
         font-size: 50px;
     }
 }
-    .main5:visited{
-     text-decoration: none;
-   
-    }
-    .main5:hover{
-    text-decoration: none;
-    color : red;
-    }
-    .main5:active{
-     text-decoration: none;
-    color : tomato;
-    }
-
 
 /*@media (min-width:1000px ){
     .bicold {
