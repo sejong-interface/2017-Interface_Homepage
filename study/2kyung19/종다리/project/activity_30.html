@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Interface</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sidebar.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class="navbar-wrapper" id="nav">
+        <div class="container">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                        <a class="navbar-brand" href="index.html"></a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="introduce.html">소개</a></li>
+                            <li><a href="calendar.html">일정</a></li>
+                            <li><a href="activity.html">활동</a></li>
+                            <li><a href="notice.html">자료실</a></li>
+                            <li><a href="question.html">FAQ</a></li>
+
+                            <!--
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">공지</a></li>
+                                    <li><a href="#">게시판</a></li>
+                                </ul>
+                            </li>
+    -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Activity</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">&nbsp;  프로그래밍 전시회</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li><a href="activity_30.html">30기</a></li>
+                        <li><a href="#">31기</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="activity_study.html">&nbsp;  스터디</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">&nbsp;  방학프로젝트</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li><a href="activity_vacation.html">인터페이스 홈페이지</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="activity_MT.html">&nbsp;  MT</a>
+                </li>
+                <li>
+                    <a href="activity_ath.html">&nbsp;  체육대회</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                                <span>Toggle Sidebar</span>
+                            </button>
+            <div class="row featurette">
+                <div class="col-md-12">
+                    <h2 class="featurette-heading">프로그래밍 전시회</h2>
+                    <p class="lead">저희 인터페이스 동아리는 방학 기간이나 학기 중, 프로그래밍 전시회를 시행합니다. 인터페이스 동아리의 회원이라면 어느 전공이던 참여할 수 있습니다. 17년도에는 자바(JAVA)를 이용해서 어플을 만들어 프로그래밍 전시회를 진행하였습니다. 적게는 4명에서 많게는 6명 정도로 팀을 꾸려 각 조의 팀장과 멘토분들을 중심으로 하여 한 조당 어플 한개씩을 만들었었습니다. 이번년도도 작년과 동일하게 여러조를 구성하여 각 조마다 하나씩 결과물을 많드는 방식으로 전시회를 진행할 예정입니다. 다만 작년에는 '자바' 라는 한가지만의 프로그래밍 언어를 사용하였던 것과 달리, 올해 프로그래밍 전시회는 자바, 파이썬, 아두이노, 라즈베리 파이 등 여러가지 언어 또는 기술을 이용하여 결과물을 만들 예정입니다. 또한 모든 프로젝트는 버전 관리 프로그램인 깃허브 통해 진행할 예정입니다.
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">1팀 - Me-ching </h2>
+                    <p class="lead">사용자 위치를 중심으로 가까운 곳에 운영 중인 약국, 혹은 약이 구비되어있는 편의점을 찾아주는 기능을 탑재했습니다. 또, 사용자의 증상을 정확하게 파악하기 위한 설문 조사를 실시하 후 진단내린 질병들을 나열해 주고 각 질병마다 추가 증상을 보여주며 자신의 상태와 가장 유사한 질병을 선택하게 하는 기능이 있습니다. 질병을 선택한 후에는 그 질병에 맞는 대표적인 약 3가지를 추천해주는 기능도 있습니다. 만약 일반의약품으로 증상을 완화할 수 없는 질병이라면 가까운 병원을 추천해 주는 기능도 있습니다.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" img src="images/meching_img.png" alt="Generic placeholder image" style="width: 35%">
+                </div>
+            </div>
+
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">2팀 - AAA(ATM 위치 알림)<span class="text-muted"></span></h2>
+                    <p class="lead">GPS를 이용해서 사용자의 위치를 파악한 후 그 주의 일정 반경에 있는 ATM기기의 위치를 지도에 표시해 주는 기능이 있습니다. 또, 사용자가 설정한 위치에서의 ATM기기도 표시해 줍니다. <br>또한 사용자의 주거래 은행도 설정할 수 있어서 사용자가 설정한 은행의 ATM기기만 지도상에 띄워주는 것도 가능합니다.</p>
+                </div>
+                <div class=" col-md-5">
+                    <img class="featurette-image img-responsive center-block" img src="images/aaa.png" alt="Generic placeholder image" style="width: 35%">
+                </div>
+            </div>
+
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">3팀 - 세종대 공지알림 </h2>
+                    <p class="lead">6개의 카테고리(공지, 입학, 학사, 국제, 취업, 모집)의 공지사항을 보기 쉽게 제공해주는 기능이 있습니다. 또한, 도서관 열람실별의 좌석 정보 현황을 실시간으로 알려주는 기능도 탑제했습니다. <br>앞으로 홍보실 및 기타부서의 부서 연락처, 세종대학교 facebook과 네이버 블로그 링크연결, 학사일정 공지와 민원 접수 등의 기능도 추가할 예정입니다.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" img src="images/renotice.png" alt="Generic placeholder image" style="width: 35%">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">4팀 - 인터페이스 체크</h2>
+                    <p class="lead">인터페이스 동아리 부원들의 원활한 활동을 지원하기 위해 만든 어플입니다.<br>정기 회의를 진행할시 동아리 회원들이 회의에 참여했는지를 체크해주는 기능이 있습니다. <br>그 외에도 동아리 공지사항을 안내해주는 기능, 게시판 기능, 재학생 명부를 띄워주는 기능, <br>시험 족보를 지원해주는 페이지로 연결해주는 기능이 있습니다.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive center-block" img src="images/realinterface_check.png" alt="Generic placeholder image" style="width: 25%">
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+
+                $('#sidebarCollapse').on('click', function() {
+                    $('#sidebar, #content').toggleClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+            });
+
+        </script>
+
+
+</body>
+
+</html>
