@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'DungGeunMo';
-    src: url(DungGeunMo.otf) format('otf');
+    src: url(../fonts/DungGeunMo.otf) format('otf');
 }
 
 @font-face {
-    font-family: 'a고딕16';
-    src: url(a고딕16.ttf) format('ttf');
+    font-family: '나눔스퀘어';
+    src: url(../fonts/NanumSquareEB.ttf) format('ttf');
 }
 
 @font-face {
-    font-family: 'a고딕12';
-    src: url(a고딕12.ttf) format('ttf');
+    font-family: '나눔바른고딕';
+    src: url(../fonts/NanumBarunGothicUltraLight.ttf) format('ttf');
 }
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
@@ -32,25 +32,46 @@
     font-size: 50px
 }
 
+.titleold {
+    font-family: DungGeunMo;
+    font-size: 50px;
+    color: #262626
+}
+
+.w-old {
+    font-family: DungGeunMo;
+    font-size: 30px;
+    color: #ffffff
+}
+
 .a16 {
-    font-family: a고딕16;
-    font-size: 18px
+    font-family: 나눔스퀘어;
+    font-size: 18px;
 }
 
 .bica16 {
-    font-family: a고딕16;
-    font-size: 50px
+    font-family: 나눔스퀘어;
+    font-size: 50px;
 }
 
 .a12 {
-    font-family: a고딕12;
+    font-family: 나눔바른고딕;
     font-size: 14px;
     color: #111111;
+}
+
+.wa12 {
+    font-family: 나눔바른고딕;
+    font-size: 14px;
+    color: #ffffff;
 }
 
 .text {
     text-align: center;
 }
+
+
+
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
