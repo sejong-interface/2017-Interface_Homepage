@@ -1,0 +1,18 @@
+-요약-
+1. 이번 저희 겨울방학 프로젝트에 대한 설명은 https://github.com/sejong-interface/2017-interface_homepage 에 있습니다.
+2. 이번 프로젝트에 관한 설명은 https://github.com/sejong-interface/interface_manual/wiki 에 있습니다.
+3. 깃허브 연동후 스터디 한것들은 자신의 폴더에 올려주세요, 인터페이스 홈페이지 관련 협업은 project 폴더에 올리시면 됩니다.
+4. 추후에 jsp, sevlet을 이용해 게시판을 제작할수도 있습니다.
+
+
+아래는 깃허브에 올라와 있는 파일 구조
+github: 
+├─design	//디자인 관련 파일
+│  └─images
+├─project	//협업 관련 파일(인터페이스 홈페이지)
+└─study	//개인 스터디 관련 파일(HTMl 공부)
+    ├─moveside	//이동엽
+    ├─riyenas0925	//강동민
+    ├─winnertree	//김진성
+    ├─2kyuang19	//이경은
+    └─sojugangsik	//오경식
