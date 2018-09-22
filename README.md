@@ -20,8 +20,8 @@
 
 ![ScreenShot](design/images/lang.png)
 
-HTML + JS(Java Script) + CSS를 이용한 반응형 웹(React Web)을 제작할 예정입니다.  
-기존의 오픈소스(Open Source) 템플릿을 이용하여 기본적인 HTML,CSS 지식으로도 제작이 가능하도록 할 계획입니다.
+HTML + JS(Java Script) + CSS를 이용한 반응형 웹(Response Web)을 제작할 예정입니다.  
+기존의 오픈소스(Bootstrap) 템플릿을 이용하여 기본적인 HTML,CSS 지식으로도 제작이 가능하도록 할 계획입니다.
 
 ## 개발환경 (Brackets Editor)
 
@@ -54,7 +54,10 @@ Download link is [here](http://brackets.io/).
    
 6. 최종 목표는 홈페이지 제작후 세종대학교 전산실에 있는 서버룸에 입주하는 것
 > 세종대학교 서버룸에 입주하면 *****.sejong.ac.kr 이라는 도메인이 주어지기 때문에  동아리를 홍보하기에 편합니다.  (~~제일좋은건  도메인이 무료라는점~~)   
- 현재는 interface518.dothome.co.kr 이라는 개인 도메인 사용중 (27기 김용우 선배님 제공)
+
+7. ~~현재는 interface518.dothome.co.kr 이라는 개인 도메인 사용중 (27기 김용우 선배님 제공)~~  
+
+8. 현재는 동아리에서 구입한 도메인인 www.interface.or.kr 이라는 도메인 사용중  
 
 ## 개발 순서
 
@@ -64,7 +67,7 @@ Download link is [here](http://brackets.io/).
 - [x] ~~2. Brakets 설치후 HTML 소스 테스트 해보기 - Hello World! 띄우기~~
 >아래 예제 및 강의에 생활코딩 WEBn 강의 참고
 
-- [ ] 3. 오픈소스 템플릿을 이용하여 홈페이지 제작 
+- [x] 3. 오픈소스 템플릿(BootStrap)을 이용하여 홈페이지 제작 
 >오픈소스 템플릿(HTML + CSS + JavaScript) 사용(Response Web)
 
 - [ ] 4. 서버 게시판 DB생성 및 홈페이지와 서버 연결
@@ -75,10 +78,6 @@ Download link is [here](http://brackets.io/).
 * [생활코딩 WEBn 강의](https://opentutorials.org/course/3083)
 * [생활코딩 HTML 강의](https://opentutorials.org/course/2039)
 >유명한 코딩강의 사이트인 생활코딩에서 제공하는 Web 강의 입니다.  
-**Web1은 HTM**  
-**Web2는 CSS**  
-**Web3는 JavaScript**  
-세가지 부분으로 이루어져있어 필요한 부분을 듣기 편합니다.
 
 * [참고할만한 교내 웹페이지](http://security.sejong.ac.kr/)
 >세종대학교의 정보보안동아리인 SSG(Sejong Security Guard)의 공식 홈페이지 입니다.
@@ -87,4 +86,4 @@ Download link is [here](http://brackets.io/).
 >현재 저희 동아리에서 사용하고 있는 도메인 주소 입니다. 
 
 * [Git](https://git-scm.com/download/win) 설치및 [Sourcetree](https://www.sourcetreeapp.com/) 연동 [방법](https://blog.naver.com/kooyomi0114/221127863538)
->깃허브는 소스코드 버젼 관리 및 협업 프로그램 입니다. 원래는 git bash를 이용해 사용해야하지만 이방법이 어렵기 때문에 Sourcetree를 사용합니다.
+>깃허브는 소스코드 버젼 관리 및 협업 프로그램 입니다. 원래는 git bash를 이용해 사용해야하지만 여기서는 Sourcetree를 사용합니다.
