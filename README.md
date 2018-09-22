@@ -1,7 +1,7 @@
 <h1 align="center">인터페이스 겨울방학 프로젝트</h1>
 
 
-## [인터페이스 동아리 홈페이지](http://riyenas0925.github.io)
+## [인터페이스 동아리 홈페이지](http://www.interface.or.kr)
 
 ![ScreenShot](design/images/logo.jpg) 
 
@@ -57,7 +57,9 @@ Download link is [here](http://brackets.io/).
 
 7. ~~현재는 interface518.dothome.co.kr 이라는 개인 도메인 사용중 (27기 김용우 선배님 제공)~~  
 
-8. 현재는 동아리에서 구입한 도메인인 www.interface.or.kr 이라는 도메인 사용중  
+8. ~~riyenas0925.github.io를 사용하여 웹페이지 운용중~~
+
+9. 현재는 동아리에서 구입한 도메인인 www.interface.or.kr 이라는 도메인 사용중  
 
 ## 개발 순서
 
